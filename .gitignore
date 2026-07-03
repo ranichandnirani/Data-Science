@@ -9,6 +9,7 @@ __pycache__/
 .virtual_documents/
 
 # Environments
+
 .env
 .venv
 env/
