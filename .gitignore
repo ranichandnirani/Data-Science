@@ -1,0 +1,60 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+conda-env/
+*.conda
+
+# Anaconda / Conda
+.conda/
+
+# Data files (uncomment as needed)
+# *.csv
+# *.xlsx
+# *.json
+data/raw/
+data/processed/
+*.parquet
+*.pkl
+*.h5
+
+# Models / large artifacts
+*.model
+*.pt
+*.pth
+*.h5
+*.joblib
+models/
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
