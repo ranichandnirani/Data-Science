@@ -1,0 +1,1 @@
+Python provides built-in functions for working with files.
