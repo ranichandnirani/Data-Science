@@ -61,3 +61,8 @@ INSERT INTO marks (student_id, subject, score) VALUES
 
 -- Note: Students 9 (Karan), 11 (Harry), and 15 (Meena) have NO marks.
 SELECT * FROM marks;
+
+SELECT students.name, marks.subject, marks.score FROM students inner join marks on students.id = marks.student_id; -- only rows with a match in both tables 
+SELECT students.name, marks.subject, marks.score FROM students left join marks on students.id = marks.student_id; -- all rows from the left table, with match data if any 
+SELECT students.name, marks.subject, marks.score FROM students right join marks on students.id = marks.student_id; -- all rows from the right table, with matched data if any 
+SELECT students.name, marks.subject, marks.score FROM students cross join marks; -- all combinations of rows from both table 
