@@ -44,4 +44,6 @@ INSERT INTO emp_personal(employee_id, date_of_birth, phone_number, email, addres
 	(6, '1991-03-22', '555-3490', 'fiona@example.com', '987 Birch St, Springfield', 'Single'),
 	(7, '1987-02-12', '555-1256', 'george.wright@example.com', '159 Walnut St, Springfield', 'Divorced');
 
-SELECT * FROM emp_personal;
+SELECT first_name, last_name FROM employees
+union all -- remove duplicates
+SELECT email, address FROM emp_personal;
