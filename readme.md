@@ -157,8 +157,10 @@ jupyter notebook
 │   └── Web Scraping & APIs ✅
 ├── 📁 0009_SQL for Data Science
 │   └── SQL Queries & Joins ✅
+├── 📁 0010-0011_Probability
+│   └── Probability, Distributions & Central Limit Theorem 🔄
 └── 📁 [Upcoming Modules]
-    └── Probability, ML, Deep Learning, LLMs, Capstone... ⏳
+    └── ML, Deep Learning, LLMs, Capstone... ⏳
 ```
 
 ---
@@ -203,7 +205,7 @@ jupyter notebook
 
 ## 🎓 Learning Path
 
-```
+```mermaid
 graph LR
     A[🌱 Start] --> B[🐍 0001-0002Python Foundations]
     B --> C[🏗️ 0003-0004Applied Projects]
@@ -315,7 +317,7 @@ graph LR
 </details>
 
 <details>
-<summary>⏳<b> Module 0010: Probability</b> - UPCOMING</summary>
+<summary>✅<b> Module 0010: Probability</b> - COMPLETED</summary>
 
 - Probability Fundamentals
 - Conditional Probability
@@ -324,7 +326,7 @@ graph LR
 </details>
 
 <details>
-<summary>⏳<b> Module 0011: Probability Distributions & CLT</b> - UPCOMING</summary>
+<summary>🔄<b> Module 0011: Probability Distributions & CLT</b> - UPCOMING</summary>
 
 - Common Distributions (Normal, Binomial, Poisson)
 - Central Limit Theorem
