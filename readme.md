@@ -64,19 +64,19 @@ This repository documents my **job-ready Data Science journey** following CodeWi
 | **0008** | Data Collection Techniques| Web Scraping, APIs         | ✅      |
 | **0009** | SQL for Data Science      | Queries, Joins, Aggregates | ✅      |
 
-### 🎲 Statistics & Probability - UPCOMING ⏳
+### 🎲 Statistics & Probability -  COMPLETED ✅
 
 | Module   | Topic                                   | Content                | Status |
 | -------- | ----------------------------------------- | ------------------------ | ------ |
-| **0010** | Probability                              | Core Probability Theory  | ⏳      |
-| **0011** | Probability Distributions & CLT          | Distributions, CLT       | ⏳      |
+| **0010** | Probability                              | Core Probability Theory  | ✅      |
+| **0011** | Probability Distributions & CLT          | Distributions, CLT       | ✅      |
 
-### 🤖 Machine Learning - UPCOMING ⏳
+### 🤖 Machine Learning - 🔄 
 
 | Module   | Topic                            | Content                   | Status |
 | -------- | ---------------------------------- | --------------------------- | ------ |
-| **0012** | ML for Data Scientists            | ML Foundations              | ⏳      |
-| **0013** | Types of ML Algorithms            | Supervised, Unsupervised    | ⏳      |
+| **0012** | ML for Data Scientists            | ML Foundations              |    ✅   |
+| **0013** | Types of ML Algorithms            | Supervised, Unsupervised    | ✅      |
 | **0014** | Practical ML using Scikit-learn   | Model Training & Evaluation | ⏳      |
 
 ### 🧠 Deep Learning, Web & LLMs - UPCOMING ⏳
@@ -158,9 +158,11 @@ jupyter notebook
 ├── 📁 0009_SQL for Data Science
 │   └── SQL Queries & Joins ✅
 ├── 📁 0010-0011_Probability
-│   └── Probability, Distributions & Central Limit Theorem 🔄
+│   └── Probability, Distributions & Central Limit Theorem ✅
+├── 📁 0012-0014_Machine Learning
+|   └── ML Workflow, Algorithms & Scikit-learn 🔄 
 └── 📁 [Upcoming Modules]
-    └── ML, Deep Learning, LLMs, Capstone... ⏳
+    └── Deep Learning, LLMs, Capstone... ⏳
 ```
 
 ---
@@ -184,19 +186,23 @@ jupyter notebook
 
 - ✅ SQL for Data Science (Queries, joins, aggregations, subqueries)
 
+🎲 **Probability**
+
+- ✅ Preparing for Probability & Statistical Inference
+- ✅ Probability, Distributions & Central Limit Theorem
+
 🚀 **Projects Completed**
 
 - ✅ Coders of Delhi - Applied Data Analysis
 - ✅ Coders of Bangalore - Applied Data Analysis
 
+
 ### 🔄 Currently Learning
 
-- 🔄 Preparing for Probability & Statistical Inference
+- 🔄 Machine Learning with Scikit-learn
 
 ### ⏳ Coming Up Next
 
-- ⏳ Probability, Distributions & Central Limit Theorem
-- ⏳ Machine Learning with Scikit-learn
 - ⏳ Deep Learning & Neural Networks
 - ⏳ Large Language Models & AI-assisted workflows
 - ⏳ Git, Google Colab & the RAG-based Capstone Project
@@ -326,7 +332,7 @@ graph LR
 </details>
 
 <details>
-<summary>🔄<b> Module 0011: Probability Distributions & CLT</b> - UPCOMING</summary>
+<summary>✅<b> Module 0011: Probability Distributions & CLT</b> - COMPLETED</summary>
 
 - Common Distributions (Normal, Binomial, Poisson)
 - Central Limit Theorem
@@ -509,7 +515,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 
 ## 🌟 Features
 
-- ✅ **0009 Modules Completed**: Solid data analysis foundation built
+- ✅ **0010 Modules Completed**: Solid data analysis foundation built
 - 🔄 **Active Learning**: Regular updates and practice
 - ✅ **Hands-on Projects**: Real-world applied analysis
 - ✅ **Modern Stack**: Python, NumPy, Pandas, SQL, Matplotlib, Seaborn
